@@ -1,0 +1,76 @@
+[debug] [2022-01-21T20:59:36.642Z] ----------------------------------------------------------------------
+[debug] [2022-01-21T20:59:36.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\zynpc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-01-21T20:59:36.658Z] CLI Version:   10.1.2
+[debug] [2022-01-21T20:59:36.658Z] Platform:      win32
+[debug] [2022-01-21T20:59:36.658Z] Node Version:  v16.13.1
+[debug] [2022-01-21T20:59:36.725Z] Time:          Fri Jan 21 2022 23:59:36 GMT+0300 (GMT+03:00)
+[debug] [2022-01-21T20:59:36.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-21T20:59:36.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-21T20:59:36.932Z] > authorizing via signed-in user (zynpcpr18@gmail.com)
+[info] i  emulators: Starting emulators: functions, firestore, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting"}}
+[debug] [2022-01-21T20:59:36.986Z] [hub] writing locator at C:\Users\zynpc\AppData\Local\Temp\hub-twitter-clone-4982f.json
+[warn] !  functions: The functions emulator is configured but there is no functions source directory. Have you run firebase init functions? {"metadata":{"emulator":{"name":"functions"},"message":"The functions emulator is configured but there is no functions source directory. Have you run \u001b[1mfirebase init functions\u001b[22m?"}}
+[info] i  firestore: downloading cloud-firestore-emulator-v1.13.1.jar... {"metadata":{"emulator":{"name":"firestore"},"message":"downloading cloud-firestore-emulator-v1.13.1.jar..."}}
+[debug] [2022-01-21T20:59:37.326Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.13.1.jar 
+[debug] [2022-01-21T20:59:37.948Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.13.1.jar 200
+[debug] [2022-01-21T20:59:37.948Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.13.1.jar [stream]
+[debug] [2022-01-21T21:00:04.751Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-01-21T21:00:04.753Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-01-21T21:00:04.753Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\zynpc\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.13.1.jar","--host","localhost","--port",8080,"--rules","C:\\Users\\zynpc\\OneDrive\\Masaüstü\\TwitterClone\\twitter-clone\\firestore.rules"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\zynpc\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.13.1.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--rules\",\"C:\\\\Users\\\\zynpc\\\\OneDrive\\\\Masaüstü\\\\TwitterClone\\\\twitter-clone\\\\firestore.rules\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2022-01-21T21:00:28.299Z] Jan 22, 2022 12:00:27 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://localhost:60256
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 22, 2022 12:00:27 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://localhost:60256\r\n"}}
+[debug] [2022-01-21T21:00:28.594Z] API endpoint: http://localhost: {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost:"}}
+[debug] [2022-01-21T21:00:28.594Z] 8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\r\n\n   export FIRESTORE_EMULATOR_HOST=localhost:8080\n\nDev App Server is now running.\n\r\n"}}
+[debug] [2022-01-21T21:00:28.690Z] > refreshing access token with scopes: []
+[debug] [2022-01-21T21:00:28.695Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-21T21:00:28.931Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Fri, 21 Jan 2022 21:00:28 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-21T21:00:29.245Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/twitter-clone-4982f/sites 
+[debug] [2022-01-21T21:00:30.365Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/twitter-clone-4982f/sites 200
+[debug] [2022-01-21T21:00:30.365Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/twitter-clone-4982f/sites {"sites":[{"name":"projects/1086943189113/sites/twitter-clone-4982f","defaultUrl":"https://twitter-clone-4982f.web.app","appId":"1:1086943189113:web:ea508b709a4ce0b1211ca8","type":"DEFAULT_SITE"}]}
+[debug] [2022-01-21T21:00:30.365Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-4982f/webApps/1:1086943189113:web:ea508b709a4ce0b1211ca8/config [none]
+[debug] [2022-01-21T21:00:31.425Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-4982f/webApps/1:1086943189113:web:ea508b709a4ce0b1211ca8/config 200
+[debug] [2022-01-21T21:00:31.426Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-4982f/webApps/1:1086943189113:web:ea508b709a4ce0b1211ca8/config {"projectId":"twitter-clone-4982f","appId":"1:1086943189113:web:ea508b709a4ce0b1211ca8","databaseURL":"https://twitter-clone-4982f-default-rtdb.firebaseio.com","storageBucket":"twitter-clone-4982f.appspot.com","locationId":"us-central","apiKey":"AIzaSyCho_22OeHw2eTE3VXvVv4rY0rZWJRqtdo","authDomain":"twitter-clone-4982f.firebaseapp.com","messagingSenderId":"1086943189113","measurementId":"G-TMLRJGVN7E"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.6.4.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.6.4.zip..."}}
+[debug] [2022-01-21T21:00:31.692Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.4.zip 
+[debug] [2022-01-21T21:00:31.849Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.4.zip 200
+[debug] [2022-01-21T21:00:31.850Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.6.4.zip [stream]
+[debug] [2022-01-21T21:00:33.508Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-01-21T21:00:33.508Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-01-21T21:00:33.508Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\zynpc\\.cache\\firebase\\emulators\\ui-v1.6.4\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\zynpc\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.4\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-01-21T21:00:33.677Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬──────────────────────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port                        │ View in Emulator UI             │
+├───────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Functions │ Failed to initialize (see above) │                                 │
+├───────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:8080                   │ http://localhost:4000/firestore │
+├───────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000                   │ n/a                             │
+└───────────┴──────────────────────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-01-21T21:02:16.986Z] Received signal SIGHUP 1
